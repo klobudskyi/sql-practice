@@ -1,14 +1,14 @@
 -- Returning values without using any source:
 
 SELECT
-	1 		AS nmb_1
+	1 	AS nmb_1
 	, 2 	AS nmb_2
 	, 5 + 5	AS nmb_3;
 
 -- Returning the number of values in a table/column and unique values in a column:
 
 SELECT
-	COUNT(*) 			AS cnt_all
+	COUNT(*) 		AS cnt_all
 	, COUNT(exp_level)	AS cnt_level
 	, COUNT(DISTINCT exp_level) 
 FROM salaries
@@ -17,7 +17,7 @@ LIMIT 10;
 -- Returning descriptive statistics for the specified column:
 
 SELECT
-	AVG(salary_in_usd)		AS salary_avg
+	AVG(salary_in_usd)	AS salary_avg
 	, MIN(salary_in_usd) 	AS salary_min
 	, MAX(salary_in_usd) 	AS salary_max
 FROM salaries
@@ -46,8 +46,8 @@ LIMIT 10;
 -- Number of unique values for each column containing text values:
 
 SELECT
-	COUNT(DISTINCT exp_level) 			AS unique_exp_level
-	, COUNT(DISTINCT emp_type) 			AS unique_emp_type
+	COUNT(DISTINCT exp_level) 		AS unique_exp_level
+	, COUNT(DISTINCT emp_type) 		AS unique_emp_type
 	, COUNT(DISTINCT job_title) 		AS unique_job_title
 	, COUNT(DISTINCT salary_cur) 		AS unique_salary_cur
 	, COUNT(DISTINCT emp_location) 		AS unique_emp_location
@@ -73,11 +73,11 @@ SELECT DISTINCT salary_cur 		AS unique_salary_cur
 FROM salaries
 ORDER BY 1 ASC;
 
-SELECT DISTINCT emp_location 	AS unique_emp_location
+SELECT DISTINCT emp_location 		AS unique_emp_location
 FROM salaries
 ORDER BY 1 ASC;
 
-SELECT DISTINCT comp_location 	AS unique_comp_location
+SELECT DISTINCT comp_location 		AS unique_comp_location
 FROM salaries
 ORDER BY 1 ASC;
 
@@ -181,8 +181,8 @@ according to their value in the column 'salary_in_usd: */
 
 SELECT *
 	, CASE
-		WHEN salary_in_usd <= 20000		THEN 'Category 1'
-		WHEN salary_in_usd <= 50000		THEN 'Category 2'
+		WHEN salary_in_usd <= 20000	THEN 'Category 1'
+		WHEN salary_in_usd <= 50000	THEN 'Category 2'
 		WHEN salary_in_usd <= 100000	THEN 'Category 3'
 		ELSE 'Category 4'
 	  END AS salary_category
@@ -191,69 +191,69 @@ FROM salaries;
 -- Checking each column for missing values:
 
 SELECT
-	COUNT(*) 							AS total_rows
-	, COUNT(year) 						AS dist_rows
+	COUNT(*) 					AS total_rows
+	, COUNT(year) 					AS dist_rows
 	, COUNT(*) - COUNT(year) 			AS null_rows
 FROM salaries;
 
 SELECT
-	COUNT(*) 							AS total_rows
-	, COUNT(exp_level) 					AS dist_rows
-	, COUNT(*) - COUNT(exp_level) 		AS null_rows
+	COUNT(*) 					AS total_rows
+	, COUNT(exp_level) 				AS dist_rows
+	, COUNT(*) - COUNT(exp_level) 			AS null_rows
 FROM salaries;
 
 SELECT
-	COUNT(*) 							AS total_rows
-	, COUNT(emp_type) 					AS dist_rows
-	, COUNT(*) - COUNT(emp_type) 		AS null_rows
+	COUNT(*) 					AS total_rows
+	, COUNT(emp_type) 				AS dist_rows
+	, COUNT(*) - COUNT(emp_type) 			AS null_rows
 FROM salaries;
 
 SELECT
-	COUNT(*) 							AS total_rows
-	, COUNT(job_title) 					AS dist_rows
-	, COUNT(*) - COUNT(job_title) 		AS null_rows
+	COUNT(*) 					AS total_rows
+	, COUNT(job_title) 				AS dist_rows
+	, COUNT(*) - COUNT(job_title) 			AS null_rows
 FROM salaries;
 
 SELECT
-	COUNT(*) 							AS total_rows
-	, COUNT(salary) 					AS dist_rows
+	COUNT(*) 					AS total_rows
+	, COUNT(salary) 				AS dist_rows
 	, COUNT(*) - COUNT(salary) 			AS null_rows
 FROM salaries;
 
 SELECT
-	COUNT(*) 							AS total_rows
+	COUNT(*) 					AS total_rows
 	, COUNT(salary_cur) 				AS dist_rows
-	, COUNT(*) - COUNT(salary_cur)		AS null_rows
+	, COUNT(*) - COUNT(salary_cur)			AS null_rows
 FROM salaries;
 
 SELECT
-	COUNT(*) 							AS total_rows
+	COUNT(*) 					AS total_rows
 	, COUNT(salary_in_usd) 				AS dist_rows
-	, COUNT(*) - COUNT(salary_in_usd) 	AS null_rows
+	, COUNT(*) - COUNT(salary_in_usd) 		AS null_rows
 FROM salaries;
 
 SELECT
-	COUNT(*) 							AS total_rows
+	COUNT(*) 					AS total_rows
 	, COUNT(emp_location) 				AS dist_rows
-	, COUNT(*) - COUNT(emp_location) 	AS null_rows
+	, COUNT(*) - COUNT(emp_location) 		AS null_rows
 FROM salaries;
 
 SELECT
-	COUNT(*) 							AS total_rows
+	COUNT(*) 					AS total_rows
 	, COUNT(remote_ratio) 				AS dist_rows
-	, COUNT(*) - COUNT(remote_ratio) 	AS null_rows
+	, COUNT(*) - COUNT(remote_ratio) 		AS null_rows
 FROM salaries;
 
 SELECT
-	COUNT(*) 							AS total_rows
+	COUNT(*) 					AS total_rows
 	, COUNT(comp_location) 				AS dist_rows
-	, COUNT(*) - COUNT(comp_location) 	AS null_rows
+	, COUNT(*) - COUNT(comp_location) 		AS null_rows
 FROM salaries;
 
 SELECT
-	COUNT(*) 							AS total_rows
-	, COUNT(comp_size) 					AS dist_rows
-	, COUNT(*) - COUNT(comp_size) 		AS null_rows
+	COUNT(*) 					AS total_rows
+	, COUNT(comp_size) 				AS dist_rows
+	, COUNT(*) - COUNT(comp_size) 			AS null_rows
 FROM salaries;
 
 -- Number of employees working for a M-size company with a salary above $100,000 in 2023:

@@ -88,10 +88,10 @@ FROM salaries;
 
 SELECT *
 	, CASE
-		WHEN salary_in_usd <= 50000		THEN 'Category 1'
+		WHEN salary_in_usd <= 50000	THEN 'Category 1'
 		WHEN salary_in_usd <= 100000	THEN 'Category 2'
 		WHEN salary_in_usd <= 150000	THEN 'Category 3'
-		WHEN salary_in_usd > 150000		THEN 'Category 4'
+		WHEN salary_in_usd > 150000	THEN 'Category 4'
 	  END AS salary_category
 FROM salaries;
 

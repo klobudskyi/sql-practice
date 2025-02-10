@@ -44,9 +44,9 @@ ORDER BY 2 DESC;
 
 SELECT
 	CASE
-		WHEN salary_in_usd <= 10000		THEN 'A'
-		WHEN salary_in_usd <= 20000		THEN 'B'
-		WHEN salary_in_usd <= 50000		THEN 'C'
+		WHEN salary_in_usd <= 10000	THEN 'A'
+		WHEN salary_in_usd <= 20000	THEN 'B'
+		WHEN salary_in_usd <= 50000	THEN 'C'
 		WHEN salary_in_usd <= 100000	THEN 'D'
 		WHEN salary_in_usd <= 200000	THEN 'E'
 		ELSE 'F'

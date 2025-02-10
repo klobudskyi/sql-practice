@@ -53,7 +53,7 @@ WITH cte AS
 		, CustomerId
 		, Total
 		, ROW_NUMBER() 	over(partition by CustomerId order by Total DESC) as invoice_num
-		, RANK() 		over(partition by CustomerId order by Total DESC) as invoice_rank
+		, RANK() 	over(partition by CustomerId order by Total DESC) as invoice_rank
 		, DENSE_RANK()	over(partition by CustomerId order by Total DESC) as invoice_dense_rank
 	from Invoice
 	Order by CustomerId 
@@ -71,11 +71,11 @@ SELECT
 	, CustomerId
 	, InvoiceDate
 	, Total
-	, LAG(Total, 1) OVER(PARTITION BY CustomerId ORDER BY InvoiceDate)												AS lag_total
-	, LAG(InvoiceDate, 1) OVER(PARTITION BY CustomerId ORDER BY InvoiceDate)										AS lag_total
+	, LAG(Total, 1) OVER(PARTITION BY CustomerId ORDER BY InvoiceDate)						AS lag_total
+	, LAG(InvoiceDate, 1) OVER(PARTITION BY CustomerId ORDER BY InvoiceDate)					AS lag_total
 	, JULIANDAY(InvoiceDate) - JULIANDAY(LAG(InvoiceDate, 1) OVER(PARTITION BY CustomerId ORDER BY InvoiceDate))	AS diff_in_days
-	, LEAD(Total, 1) OVER(PARTITION BY CustomerId ORDER BY InvoiceDate)												AS lead_total
- 	, FIRST_VALUE(Total) OVER(PARTITION BY CustomerId ORDER BY InvoiceDate ASC)										AS first_amount
-	, LAST_VALUE(Total) OVER(PARTITION BY CustomerId)																AS last_amount
+	, LEAD(Total, 1) OVER(PARTITION BY CustomerId ORDER BY InvoiceDate)						AS lead_total
+ 	, FIRST_VALUE(Total) OVER(PARTITION BY CustomerId ORDER BY InvoiceDate ASC)					AS first_amount
+	, LAST_VALUE(Total) OVER(PARTITION BY CustomerId)								AS last_amount
 FROM Invoice
 ORDER BY CustomerId

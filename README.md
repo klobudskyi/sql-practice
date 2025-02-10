@@ -1,8 +1,6 @@
 # Objective:
----
 The primary objective of this project was to develop a solid foundation in SQL for data analytics, showcasing my ability to manipulate, analyze, and extract insights from datasets.
 # Description:
----
 For this project, I used [PostgreSQL]([PostgreSQL: About](https://www.postgresql.org/about/)) and [DBeaver]([About | DBeaver Community](https://dbeaver.io/about/)) to analyze and experiment with data from two datasets:
 - [Data Science Salaries]([Data Science Salaries 2023 💸](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023))
 	- The dataset contains information on salaries in the field of Data Science, including data on the year of payment, level of experience, type of employment, position, salary, currency, etc.
@@ -11,7 +9,6 @@ For this project, I used [PostgreSQL]([PostgreSQL: About](https://www.postgresql
 
 The evolution of code application can be described by the phrase ‘from more to less.’ That is, from the practice of writing basic queries and working on common blocks of a typical SQL script, I moved on to studying deeper concepts and functions.
 # Stages:
----
 - Data preparation
 	- uploading CSV data files to pgAdmin 4 and DBeaver ("data_science_salaries_data" and "dbeaver_sample_data");
 - Writing basic queries and practising
@@ -103,7 +100,6 @@ The evolution of code application can be described by the phrase ‘from more to
 	- 09_ADMIN (database administration / CREATE, ALTER, INSERT, DROP):
 		- Table editing and creation
 # What's next?
----
 I am now focused on gaining even more practical knowledge to apply this tool, so I am determined to do [SQL 50 by Leetcode]([SQL 50 - Study Plan - LeetCode](https://leetcode.com/studyplan/top-sql-50/)).
 
 I may upload my solutions to the problems here shortly.

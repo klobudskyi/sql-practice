@@ -2,7 +2,7 @@
 
 SELECT 
 	year
-	, exp_level AS level
+	, exp_level 	AS level
 	, emp_type 	AS type
 FROM salaries
 WHERE 

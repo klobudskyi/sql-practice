@@ -104,4 +104,4 @@ I am now focused on gaining even more practical knowledge to apply this tool, so
 
 I may upload my solutions to the problems here shortly.
 
-Special thanks to @NickTimosh for providing such a comprehensive and practical [course](https://youtu.be/HkT_VrzbXZQ?si=e1DUSv-jr5UuVLTR) that significantly contributed to my SQL journey.
+Special thanks to [@NickTimosh](https://github.com/NickTimosh) for providing such a comprehensive and practical [course](https://youtu.be/HkT_VrzbXZQ?si=e1DUSv-jr5UuVLTR) that significantly contributed to my SQL journey.

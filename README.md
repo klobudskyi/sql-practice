@@ -104,4 +104,4 @@ I am now focused on gaining even more practical knowledge to apply this tool, so
 
 I may upload my solutions to the problems here shortly.
 
-Special thanks to @NickTimosh for providing such a comprehensive and practical [course]([ПОВНИЙ ПРАКТИЧНИЙ КУРС SQL для аналітиків даних 2024](https://www.youtube.com/watch?v=HkT_VrzbXZQ&t=9529s&ab_channel=%D0%9D%D1%96%D0%BA%D1%96%D1%82%D0%B0%D0%A2%D0%B8%D0%BC%D0%BE%D1%88%D0%B5%D0%BD%D0%BA%D0%BE%5B%D0%90%D0%BD%D0%B0%D0%BB%D1%96%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%85%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D1%8E%5D))that significantly contributed to my SQL journey.
+Special thanks to @NickTimosh for providing such a comprehensive and practical [course]([ПОВНИЙ ПРАКТИЧНИЙ КУРС SQL для аналітиків даних 2024](https://youtu.be/HkT_VrzbXZQ?si=e1DUSv-jr5UuVLTR))that significantly contributed to my SQL journey.

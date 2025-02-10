@@ -1,10 +1,10 @@
-### Objective:
+## Objective:
 The primary objective of this project was to develop a solid foundation in SQL for data analytics, showcasing my ability to manipulate, analyze, and extract insights from datasets.
 ### Description:
-For this project, I used [PostgreSQL]([PostgreSQL: About](https://www.postgresql.org/about/)) and [DBeaver]([About | DBeaver Community](https://dbeaver.io/about/)) to analyze and experiment with data from two datasets:
-- [Data Science Salaries]([Data Science Salaries 2023 💸](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023))
+For this project, I used [PostgreSQL](https://www.postgresql.org/about/) and [DBeaver](https://dbeaver.io/about/) to analyze and experiment with data from two datasets:
+- [Data Science Salaries](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023)
 	- The dataset contains information on salaries in the field of Data Science, including data on the year of payment, level of experience, type of employment, position, salary, currency, etc.
-- [DBeaver Sample Database]([DBeaver Documentation](https://dbeaver.com/docs/dbeaver/Sample-Database/))
+- [DBeaver Sample Database](https://dbeaver.com/docs/dbeaver/Sample-Database/)
 	- The dataset simulates a music store management system and contains information about customers, orders, music tracks, albums, artists, employees, etc.
 
 The evolution of code application can be described by the phrase ‘from more to less.’ That is, from the practice of writing basic queries and working on common blocks of a typical SQL script, I moved on to studying deeper concepts and functions.
@@ -100,8 +100,8 @@ The evolution of code application can be described by the phrase ‘from more to
 	- 09_ADMIN (database administration / CREATE, ALTER, INSERT, DROP):
 		- Table editing and creation
 ### What's next?
-I am now focused on gaining even more practical knowledge to apply this tool, so I am determined to do [SQL 50 by Leetcode]([SQL 50 - Study Plan - LeetCode](https://leetcode.com/studyplan/top-sql-50/)).
+I am now focused on gaining even more practical knowledge to apply this tool, so I am determined to do [SQL 50 by Leetcode](https://leetcode.com/studyplan/top-sql-50/).
 
 I may upload my solutions to the problems here shortly.
 
-Special thanks to @NickTimosh for providing such a comprehensive and practical [course]([ПОВНИЙ ПРАКТИЧНИЙ КУРС SQL для аналітиків даних 2024](https://youtu.be/HkT_VrzbXZQ?si=e1DUSv-jr5UuVLTR))that significantly contributed to my SQL journey.
+Special thanks to @NickTimosh for providing such a comprehensive and practical [course](https://youtu.be/HkT_VrzbXZQ?si=e1DUSv-jr5UuVLTR) that significantly contributed to my SQL journey.

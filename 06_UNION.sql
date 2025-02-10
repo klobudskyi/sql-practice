@@ -43,13 +43,13 @@ FROM Employee e;
 -- 'salary_db' UNION example:
 
 SELECT
-	'min_salary'			AS parameter
+	'min_salary'		AS parameter
 	, MIN(salary_in_usd)	AS value
 FROM salaries
 
 UNION
 
 SELECT
-	'max_salary'			AS parameter
+	'max_salary'		AS parameter
 	, MAX(salary_in_usd)	AS value
 FROM salaries;

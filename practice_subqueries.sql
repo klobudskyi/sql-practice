@@ -43,7 +43,7 @@ FROM
 -- Alternative option:
 
 SELECT	
-	MAX(salary_in_usd) 			AS salary_in_usd
+	MAX(salary_in_usd) 		AS salary_in_usd
 FROM salaries
 GROUP BY comp_location
 ORDER BY 1 ASC

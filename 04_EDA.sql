@@ -26,9 +26,9 @@ SELECT
 	, exp_level
 	, MIN(salary_in_usd)
 	, MAX(salary_in_usd)
-	, ROUND(AVG(salary_in_usd),0) AS avg
-	, ROUND(variance(salary_in_usd),0) AS var
-	, ROUND(stddev(salary_in_usd),0) AS stddev
+	, ROUND(AVG(salary_in_usd),0) 		AS avg
+	, ROUND(variance(salary_in_usd),0) 	AS var
+	, ROUND(stddev(salary_in_usd),0) 	AS stddev
 FROM salaries
 GROUP BY 1, 2
 ORDER BY 1, 2;

@@ -12,7 +12,7 @@ For this project, I used [PostgreSQL](https://www.postgresql.org/about/) and [DB
 - [DBeaver Sample Database](https://dbeaver.com/docs/dbeaver/Sample-Database/)
 	- The dataset simulates a music store management system and contains information about customers, orders, music tracks, albums, artists, employees, etc.
 
-The evolution of code application can be described by the phrase ‘from more to less.’ That is, from the practice of writing basic queries and working on common blocks of a typical SQL script, I moved on to studying deeper concepts and functions.
+The evolution of code application can be described by the phrase "from more to less." That is, from the practice of writing basic queries and working on common blocks of a typical SQL script, I moved on to studying deeper concepts and functions.
 ## Stages:
 - Data preparation
 	- uploading CSV data files to pgAdmin 4 and DBeaver ("data_science_salaries_data" and "dbeaver_sample_data");

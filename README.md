@@ -1,5 +1,8 @@
 ## Objective:
 The primary objective of this project was to develop a solid foundation in SQL for data analytics, showcasing my ability to manipulate, analyze, and extract insights from datasets.
+
+![screenshot-sql-practice](https://github.com/user-attachments/assets/c2e2bee8-d80f-4f10-b1a4-608c3e442587)
+
 ## Description:
 For this project, I used [PostgreSQL](https://www.postgresql.org/about/) and [DBeaver](https://dbeaver.io/about/) to analyze and experiment with data from two datasets:
 - [Data Science Salaries](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023)
